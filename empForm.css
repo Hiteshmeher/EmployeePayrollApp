@@ -148,23 +148,29 @@ select{
 
 .submitButton{
     border: 0.5px solid black;
-    background-color: #44d871;
     margin-right: 30px;
     border-radius: 10px;
 }
+.submitButton:hover{
+    background-color: #44d871;
+}
 .resetButton{
     border: 0.5px solid black;
-    background-color: rgb(220, 158, 42);
     text-decoration: none;
     text-align: center;
     border-radius: 10px;
 }
+.resetButton:hover{
+    background-color: rgb(220, 158, 42);
+}
 .cancelButton{
     border: 0.5px solid black;
-    background-color: rgb(185, 52, 52);
     text-decoration: none;
     text-align: center;
     border-radius: 10px;
+}
+.cancelButton:hover{
+    background-color: rgb(185, 52, 52);
 }
 
 @media only screen and (max-width: 960px){
@@ -198,7 +204,7 @@ select{
         justify-content: space-between;
         margin-bottom: 20px;
     }
-    .submitButton{
+    .submitButton:hover{
         margin: 0;
     }
     .buttonParent{
